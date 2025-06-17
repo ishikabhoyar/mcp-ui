@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { SplineSceneBasic } from "@/components/ui/demo";
 import WorldMapSection from "@/components/ui/world-map-section";
-import { FeaturesSection } from "@/components/ui/features-section";
+import { FeaturesSectionDemo } from "@/components/ui/features-section-demo";
 import { HowItWorksSection } from "@/components/ui/how-it-works-section";
 import { FAQSection } from "@/components/ui/faq-section";
 import { CTASection } from "@/components/ui/cta-section";
@@ -24,7 +24,7 @@ export default function HelloPage() {
         <HowItWorksSection />
       </section>
       <section>
-        <FeaturesSection />
+        <FeaturesSectionDemo />
       </section>
       <section>
         <FAQSection />
