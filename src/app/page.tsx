@@ -1,13 +1,38 @@
-import { HeroSectionOne } from "@/components/hero-section-demo-1";
-import { AboutUs } from "@/components/about-us";
-import { Footer } from "@/components/footer";
+import { Metadata } from "next";
+import { SplineSceneBasic } from "@/components/ui/demo";
+import WorldMapSection from "@/components/ui/world-map-section";
+import { FeaturesSection } from "@/components/ui/features-section";
+import { HowItWorksSection } from "@/components/ui/how-it-works-section";
+import { FAQSection } from "@/components/ui/faq-section";
+import { CTASection } from "@/components/ui/cta-section";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "MCP Server | Enterprise Solutions",
+  description: "Enterprise-grade MCP Server infrastructure with unparalleled performance",
+};
+
+export default function HelloPage() {
   return (
-    <div>
-      <HeroSectionOne />
-      <AboutUs />
-      <Footer />
-    </div>
+    <>
+      <main className="w-screen h-screen overflow-hidden p-0 m-0">
+        <SplineSceneBasic />
+      </main>
+      <section className="py-16">
+        <WorldMapSection />
+      </section>
+      <section>
+        <HowItWorksSection />
+      </section>
+      <section>
+        <FeaturesSection />
+      </section>
+      <section>
+        <FAQSection />
+      </section>
+      <section>
+        <CTASection />
+      </section>
+    </>
   );
 }
+
