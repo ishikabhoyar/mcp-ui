@@ -16,12 +16,12 @@ export function SplineSceneBasic() {
             <div className="flex flex-col h-full md:flex-row">
                 {/* Left content */}
                 <div className="flex-1 p-10 relative z-10 flex flex-col justify-center">
-                    <div className="text-8xl md:text-6xl font-bold h-[80px]">
+                    <div className="text-4xl md:text-6xl font-bold h-[80px]">
                         <VaporizeTextCycle 
                             texts={["MCP Server"]}
                             font={{ 
                                 fontFamily: "sans-serif", 
-                                fontSize: "100px", 
+                                fontSize: "85px", 
                                 fontWeight: 700 
                             }}
                             color="rgb(255, 255, 255)"
@@ -30,10 +30,10 @@ export function SplineSceneBasic() {
                             animation={{
                                 vaporizeDuration: 2.5,
                                 fadeInDuration: 1.5,
-                                waitDuration: 3
+                                waitDuration: 1.5
                             }}
                         />
-                        <p className="mt-4 text-neutral-300 max-w-lg text-lg pl-15 py-10">
+                        <p className="mt-4 text-neutral-300 max-w-lg text-lg pl-27 py-10">
                         A unified backend server that integrates Gmail, Google Calendar, and Google Classroom APIs to streamline
                         academic workflows.
                     </p>
