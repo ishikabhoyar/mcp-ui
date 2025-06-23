@@ -9,23 +9,23 @@ export function HowItWorksSection() {
   const steps = [
     {
       number: "01",
-      title: "Connect Your Apps",
-      description: "Integrate your existing applications with MCP Server using our simple SDK or REST API."
+      title: "Setup Authentication",
+      description: "Connect to your Google account with OAuth to enable secure access to Gmail, Calendar, and Classroom."
     },
     {
       number: "02",
-      title: "Configure Security",
-      description: "Set up authentication, permissions, and encryption levels based on your specific needs."
+      title: "Install & Configure",
+      description: "Install the Gmail MCP Server package and configure your API permissions based on your needs."
     },
     {
       number: "03",
-      title: "Deploy Globally",
-      description: "Choose deployment regions optimized for your user base with a single click."
+      title: "Integrate APIs",
+      description: "Start accessing Gmail emails, managing Calendar events, and interacting with Classroom courses through a unified API."
     },
     {
       number: "04",
-      title: "Monitor & Scale",
-      description: "Visualize performance in real-time and let our system automatically scale to meet demand."
+      title: "Build Your Application",
+      description: "Use our simplified API endpoints to create powerful applications and workflows around your Google Workspace."
     }
   ];
 
@@ -49,7 +49,7 @@ export function HowItWorksSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-neutral-400 max-w-3xl mx-auto"
           >
-            Simple integration, powerful results
+            Seamless Google Workspace integration in minutes
           </motion.p>
         </div>
 
@@ -66,15 +66,17 @@ export function HowItWorksSection() {
                   <div className="text-xs text-neutral-400 mx-auto pr-8">Terminal</div>
                 </div>
                 <div className="p-4 text-sm font-mono">
-                  <p className="text-green-500">$ npm install mcp-server</p>
+                  <p className="text-green-500">$ npm install gmail-mcp-server</p>
                   <p className="text-neutral-400 mt-2">Installing packages...</p>
-                  <p className="text-neutral-400">Configuring environment...</p>
-                  <p className="text-white mt-2">✓ MCP Server installed successfully!</p>
-                  <p className="text-green-500 mt-4">$ mcp-server init</p>
-                  <p className="text-neutral-400">Initializing MCP Server...</p>
-                  <p className="text-white">✓ Server running at https://localhost:3000</p>
+                  <p className="text-white mt-2">✓ Gmail MCP Server installed successfully!</p>
+                  <p className="text-green-500 mt-4">$ npx gmail-mcp start</p>
+                  <p className="text-neutral-400">Starting Gmail MCP Server...</p>
+                  <p className="text-white">✓ Server running at http://localhost:3000</p>
+                  <p className="text-neutral-400 mt-2">✓ Gmail API connected</p>
+                  <p className="text-neutral-400">✓ Calendar API connected</p>
+                  <p className="text-neutral-400">✓ Classroom API connected</p>
                   <div className="bg-violet-500/10 border-l-2 border-violet-500 pl-2 py-1 mt-3 animate-pulse">
-                    <p className="text-violet-400">Ready to accept connections</p>
+                    <p className="text-violet-400">Ready to process requests</p>
                   </div>
                 </div>
               </div>
