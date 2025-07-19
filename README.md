@@ -1,3 +1,16 @@
+# Gmail MCP Server
+
+A powerful Model Context Protocol server that integrates Gmail, Google Calendar, and Google Classroom APIs, providing seamless access to your Google workspace services through a unified interface.
+
+## Features
+
+- 📧 **Gmail API Integration** - Full access to emails, threads, labels, and attachments
+- 📅 **Google Calendar API** - Manage calendar events and schedules
+- 🎓 **Google Classroom API** - Course and assignment management
+- 🔐 **OAuth 2.0 Security** - Industry-standard authentication
+- 🔄 **Unified Interface** - Single MCP server for all Google APIs
+- ⚡ **Rate Limit Management** - Built-in quota handling
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
