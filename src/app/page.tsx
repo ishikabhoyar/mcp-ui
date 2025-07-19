@@ -7,8 +7,8 @@ import { FAQSection } from "@/components/ui/faq-section";
 import { CTASection } from "@/components/ui/cta-section";
 
 export const metadata: Metadata = {
-  title: "MCP Server | Enterprise Solutions",
-  description: "Enterprise-grade MCP Server infrastructure with unparalleled performance",
+  title: "Gmail MCP Server | Google Workspace Integration",
+  description: "Powerful MCP server for Gmail, Google Calendar, and Google Classroom APIs with unified access",
 };
 
 export default function HelloPage() {
