@@ -8,28 +8,28 @@ import { Button } from "@/components/ui/button";
 export function FAQSection() {
   const faqs = [
     {
-      question: "What is MCP Server?",
-      answer: "MCP Server is an enterprise-grade infrastructure solution that provides a unified backend for applications with global distribution, high performance, and advanced security features built in."
+      question: "What is Gmail MCP Server?",
+      answer: "Gmail MCP Server is a Model Context Protocol server that provides unified API access to Gmail, Google Calendar, and Google Classroom services through a single, easy-to-use interface."
     },
     {
-      question: "How does MCP Server differ from traditional cloud providers?",
-      answer: "Unlike traditional cloud providers, MCP Server offers a fully integrated stack with pre-configured security, auto-scaling, and performance optimizations specifically designed for Model Context Protocol applications."
+      question: "How do I authenticate with Google services?",
+      answer: "Authentication is handled through OAuth 2.0. Simply configure your Google Cloud Console credentials, and the MCP server will handle the complete OAuth flow, including token refresh and management."
     },
     {
-      question: "What programming languages and frameworks are supported?",
-      answer: "MCP Server supports all major programming languages including JavaScript/TypeScript, Python, Java, Go, Ruby, and PHP, with framework-specific SDKs for React, Next.js, Django, Spring, and more."
+      question: "What Google APIs are supported?",
+      answer: "Gmail MCP Server supports Gmail API (for email management), Google Calendar API (for calendar events), and Google Classroom API (for course and assignment management). All major features of these APIs are accessible."
     },
     {
-      question: "Can I migrate my existing application to MCP Server?",
-      answer: "Yes! We provide migration tools and guides to help you seamlessly transition from your current infrastructure to MCP Server with minimal downtime and code changes."
+      question: "Can I use this in production applications?",
+      answer: "Yes! Gmail MCP Server is production-ready with built-in rate limiting, error handling, and security features. It handles Google API quotas and provides reliable access to your Google Workspace data."
     },
     {
-      question: "What kind of security features does MCP Server offer?",
-      answer: "MCP Server includes enterprise-level security with end-to-end encryption, role-based access control, DDoS protection, automated security patching, and compliance with SOC 2, GDPR, HIPAA, and other standards."
+      question: "What security measures are in place?",
+      answer: "The server implements OAuth 2.0 best practices, secure token storage, HTTPS encryption, and follows Google's security guidelines. All API requests are authenticated and authorized properly."
     },
     {
-      question: "How does pricing work?",
-      answer: "MCP Server offers tiered pricing based on usage, with a generous free tier for development and small applications. Enterprise plans include dedicated support, SLAs, and custom integrations. Contact our sales team for a quote tailored to your needs."
+      question: "How do I get started?",
+      answer: "Install the Gmail MCP Server package, set up your Google Cloud Console project, configure OAuth credentials, and start making API calls. Our documentation provides step-by-step setup instructions."
     }
   ];
 
@@ -53,7 +53,7 @@ export function FAQSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-neutral-400 max-w-3xl mx-auto"
           >
-            Everything you need to know about MCP Server
+            Everything you need to know about Gmail MCP Server
           </motion.p>
         </div>
 

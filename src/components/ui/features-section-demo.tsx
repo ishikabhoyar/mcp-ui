@@ -8,10 +8,10 @@ export function FeaturesSectionDemo() {
     <div className="py-20 lg:py-40 bg-black">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-          Powerful Features
+          Gmail MCP Server Features
         </h2>
         <p className="text-xl text-neutral-400 max-w-3xl mx-auto">
-          Everything you need for enterprise-grade MCP infrastructure
+          Everything you need for Google Workspace API integration
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
@@ -36,44 +36,44 @@ export function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "Global Infrastructure",
+    title: "Gmail API Integration",
     description:
-      "Deploy across 37 data centers worldwide with 99.99% uptime guarantees and enterprise-grade reliability.",
+      "Full access to Gmail messages, threads, labels, and attachments with advanced search and filtering capabilities.",
   },
   {
-    title: "High Performance Computing",
+    title: "Google Calendar API",
     description:
-      "Access compute resources with dedicated GPUs and optimized networking for AI/ML workloads and real-time processing.",
+      "Create, read, update, and delete calendar events with support for recurring events and multiple calendars.",
   },
   {
-    title: "Secure by Design",
+    title: "Classroom API Support",
     description:
-      "HIPAA, SOC2, and GDPR compliant architecture with end-to-end encryption and advanced threat protection.",
+      "Manage Google Classroom courses, assignments, and student submissions with comprehensive API coverage.",
   },
   {
-    title: "Serverless Architecture",
+    title: "OAuth 2.0 Security",
     description:
-      "Build and deploy applications without managing infrastructure, with automatic scaling based on demand.",
+      "Industry-standard OAuth 2.0 authentication with secure token management and refresh handling.",
   },
   {
-    title: "Multi-cloud Support",
+    title: "Unified API Interface",
     description:
-      "Seamlessly operate across AWS, Azure, and Google Cloud with unified management and consistent performance.",
+      "Single MCP server providing consistent access to all three Google APIs through standardized endpoints.",
   },
   {
-    title: "Real-time Analytics",
+    title: "Real-time Sync",
     description:
-      "Monitor system metrics, application performance, and user behavior with customizable dashboards.",
+      "Keep your application data synchronized with Google services using webhooks and push notifications.",
   },
   {
-    title: "API Integration",
+    title: "Rate Limit Management",
     description:
-      "Connect with your existing tools through comprehensive API and SDK support for all major platforms.",
+      "Built-in rate limiting and quota management to ensure compliance with Google API usage policies.",
   },
   {
-    title: "Developer-first Tools",
+    title: "Easy Integration",
     description:
-      "Accelerate development with CLI tools, SDKs, and comprehensive documentation designed for developer productivity.",
+      "Simple setup process with comprehensive documentation and SDK support for rapid development.",
   },
 ];
 

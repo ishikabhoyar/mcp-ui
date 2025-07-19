@@ -7,11 +7,11 @@ export default function WorldMapSection() {
     <div className="relative w-full overflow-hidden">
       <div className="py-10">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
-          Global Network Infrastructure
+          Gmail MCP Server Global Network
         </h1>
         <p className="text-center max-w-3xl mx-auto mb-10 text-neutral-500">
-          MCP Server's enterprise-grade infrastructure spans continents, ensuring 
-          high-availability and minimal latency for your mission-critical applications.
+          Gmail MCP Server's infrastructure spans continents, ensuring reliable Google Workspace 
+          API access and minimal latency for your Gmail, Calendar, and Classroom integrations.
         </p>
       </div>
       
@@ -47,16 +47,16 @@ export default function WorldMapSection() {
       
       <div className="flex justify-center gap-8 py-8 flex-wrap">
         <div className="text-center">
-          <p className="text-2xl font-bold">37</p>
-          <p className="text-sm text-neutral-500">Data Centers</p>
+          <p className="text-2xl font-bold">3</p>
+          <p className="text-sm text-neutral-500">Google APIs</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">99.99%</p>
-          <p className="text-sm text-neutral-500">Uptime SLA</p>
+          <p className="text-2xl font-bold">99.9%</p>
+          <p className="text-sm text-neutral-500">API Uptime</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">&lt;50ms</p>
-          <p className="text-sm text-neutral-500">Global Latency</p>
+          <p className="text-2xl font-bold">OAuth 2.0</p>
+          <p className="text-sm text-neutral-500">Secure Auth</p>
         </div>
       </div>
     </div>
