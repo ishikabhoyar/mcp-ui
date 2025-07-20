@@ -130,18 +130,45 @@ export function HowItWorksSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/claude-color.png"
+                    alt="Claude Desktop"
+                    width={48}
+                    height={48}
+                    className="rounded-lg"
+                  />
+                </div>
                 <h4 className="text-xl font-bold text-white mb-2">Claude Desktop</h4>
                 <p className="text-neutral-400 text-sm">Anthropic's desktop application with MCP support</p>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/cline.png"
+                    alt="VS Code Cline"
+                    width={48}
+                    height={48}
+                    className="rounded-lg"
+                  />
+                </div>
                 <h4 className="text-xl font-bold text-white mb-2">VS Code Cline</h4>
                 <p className="text-neutral-400 text-sm">AI coding assistant extension for Visual Studio Code</p>
               </div>
             </div>
             <div className="text-center">
               <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/mcp.png"
+                    alt="Any MCP Client"
+                    width={48}
+                    height={48}
+                    className="rounded-lg"
+                  />
+                </div>
                 <h4 className="text-xl font-bold text-white mb-2">Any MCP Client</h4>
                 <p className="text-neutral-400 text-sm">Compatible with all Model Context Protocol clients</p>
               </div>
