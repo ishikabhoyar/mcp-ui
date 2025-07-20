@@ -73,7 +73,7 @@ const grid = [
   {
     title: "Easy Integration",
     description:
-      "Simple setup process with comprehensive documentation and SDK support for rapid development.",
+      "Simple setup process with just one JSON configuration - no complex installation or setup required.",
   },
 ];
 

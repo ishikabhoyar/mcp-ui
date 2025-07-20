@@ -24,10 +24,10 @@ export function CTASection() {
           
           <div className="flex flex-wrap justify-center gap-4">
             <Button className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-6 h-auto text-lg">
-              Get Started
+              Copy Configuration
             </Button>
             <Button variant="outline" className="border-neutral-500 hover:border-violet-500 text-white px-8 py-6 h-auto text-lg">
-              View Documentation
+              View on GitHub
             </Button>
           </div>
           

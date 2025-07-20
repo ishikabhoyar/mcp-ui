@@ -44,24 +44,6 @@ export default function WorldMapSection() {
         ]}
         lineColor="#8b5cf6" // Violet color to match your MCP theme
       />
-      
-      <div className="py-8">
-        <h3 className="text-2xl font-bold text-center mb-6">Supported Clients</h3>
-        <div className="flex justify-center gap-12 py-4 flex-wrap">
-          <div className="text-center">
-            <p className="text-xl font-bold">VSCode</p>
-            <p className="text-sm text-neutral-500">Code Editor</p>
-          </div>
-          <div className="text-center">
-            <p className="text-xl font-bold">Cline</p>
-            <p className="text-sm text-neutral-500">AI Assistant</p>
-          </div>
-          <div className="text-center">
-            <p className="text-xl font-bold">Claude</p>
-            <p className="text-sm text-neutral-500">Desktop & Web</p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
