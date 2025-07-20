@@ -29,7 +29,7 @@ export function FAQSection() {
     },
     {
       question: "How do I get started?",
-      answer: "Install the Gmail MCP Server package, set up your Google Cloud Console project, configure OAuth credentials, and start making API calls. Our documentation provides step-by-step setup instructions."
+      answer: "Simply copy the JSON configuration shown above and add it to your MCP client settings. The server will handle authentication and provide access to Gmail, Calendar, and Classroom APIs immediately."
     }
   ];
 
@@ -91,7 +91,7 @@ export function FAQSection() {
               Contact Support
             </Button>
             <Button variant="outline" className="border-neutral-700 hover:border-violet-500 text-white">
-              View Documentation
+              View on GitHub
             </Button>
           </div>
         </motion.div>

@@ -109,6 +109,45 @@ export function HowItWorksSection() {
             ))}
           </div>
         </div>
+
+        {/* Supported Clients Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          className="mt-24"
+        >
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
+              Supported MCP Clients
+            </h3>
+            <p className="text-lg text-neutral-400">
+              Works with any MCP-compatible client or application
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <h4 className="text-xl font-bold text-white mb-2">Claude Desktop</h4>
+                <p className="text-neutral-400 text-sm">Anthropic's desktop application with MCP support</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <h4 className="text-xl font-bold text-white mb-2">VS Code Cline</h4>
+                <p className="text-neutral-400 text-sm">AI coding assistant extension for Visual Studio Code</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-6 hover:border-violet-500/50 transition-all duration-300">
+                <h4 className="text-xl font-bold text-white mb-2">Any MCP Client</h4>
+                <p className="text-neutral-400 text-sm">Compatible with all Model Context Protocol clients</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   );
