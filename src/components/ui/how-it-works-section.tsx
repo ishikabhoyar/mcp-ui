@@ -9,23 +9,23 @@ export function HowItWorksSection() {
   const steps = [
     {
       number: "01",
-      title: "Setup Authentication",
-      description: "Connect to your Google account with OAuth to enable secure access to Gmail, Calendar, and Classroom."
+      title: "Copy Configuration",
+      description: "Simply copy the provided JSON configuration - no complex installation required."
     },
     {
       number: "02",
-      title: "Install & Configure",
-      description: "Install the Gmail MCP Server package and configure your API permissions based on your needs."
+      title: "Add to Any MCP Client",
+      description: "Paste the configuration into any MCP-compatible client or application that supports MCP servers."
     },
     {
       number: "03",
-      title: "Integrate APIs",
-      description: "Start accessing Gmail emails, managing Calendar events, and interacting with Classroom courses through a unified API."
+      title: "Authenticate with Google",
+      description: "Follow the OAuth flow to securely connect your Google account when prompted."
     },
     {
       number: "04",
-      title: "Build Your Application",
-      description: "Use our simplified API endpoints to create powerful applications and workflows around your Google Workspace."
+      title: "Start Using Gmail APIs",
+      description: "Immediately access Gmail, Calendar, and Classroom through your MCP client interface."
     }
   ];
 
@@ -49,7 +49,7 @@ export function HowItWorksSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-neutral-400 max-w-3xl mx-auto"
           >
-            Seamless Google Workspace integration in minutes
+            Ready in seconds - just add one JSON config to any MCP client
           </motion.p>
         </div>
 
@@ -63,20 +63,24 @@ export function HowItWorksSection() {
                     <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                     <div className="w-3 h-3 rounded-full bg-green-500"></div>
                   </div>
-                  <div className="text-xs text-neutral-400 mx-auto pr-8">Terminal</div>
+                  <div className="text-xs text-neutral-400 mx-auto pr-8">MCP Client Configuration</div>
                 </div>
                 <div className="p-4 text-sm font-mono">
-                  <p className="text-green-500">$ npm install gmail-mcp-server</p>
-                  <p className="text-neutral-400 mt-2">Installing packages...</p>
-                  <p className="text-white mt-2">✓ Gmail MCP Server installed successfully!</p>
-                  <p className="text-green-500 mt-4">$ npx gmail-mcp start</p>
-                  <p className="text-neutral-400">Starting Gmail MCP Server...</p>
-                  <p className="text-white">✓ Server running at http://localhost:3000</p>
-                  <p className="text-neutral-400 mt-2">✓ Gmail API connected</p>
-                  <p className="text-neutral-400">✓ Calendar API connected</p>
-                  <p className="text-neutral-400">✓ Classroom API connected</p>
+                  <p className="text-violet-400 mb-2">Copy this configuration:</p>
+                  <div className="bg-neutral-900 p-3 mt-2 rounded border border-neutral-700">
+                    <p className="text-blue-300">{`{`}</p>
+                    <p className="text-blue-300 ml-2">{`"gmail-mcp": {`}</p>
+                    <p className="text-green-300 ml-4">{`"command": "npx",`}</p>
+                    <p className="text-green-300 ml-4">{`"args": [`}</p>
+                    <p className="text-yellow-300 ml-6">{`"mcp-remote",`}</p>
+                    <p className="text-yellow-300 ml-6">{`"https://gmail-mcp-server.ishikabhoyar2005.workers.dev/sse"`}</p>
+                    <p className="text-green-300 ml-4">{`]`}</p>
+                    <p className="text-blue-300 ml-2">{`}`}</p>
+                    <p className="text-blue-300">{`}`}</p>
+                  </div>
+                  <p className="text-neutral-400 mt-3">Add to any MCP client's configuration</p>
                   <div className="bg-violet-500/10 border-l-2 border-violet-500 pl-2 py-1 mt-3 animate-pulse">
-                    <p className="text-violet-400">Ready to process requests</p>
+                    <p className="text-violet-400">✓ Ready to use with any MCP client!</p>
                   </div>
                 </div>
               </div>

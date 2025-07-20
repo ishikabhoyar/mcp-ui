@@ -11,6 +11,36 @@ A powerful Model Context Protocol server that integrates Gmail, Google Calendar,
 - 🔄 **Unified Interface** - Single MCP server for all Google APIs
 - ⚡ **Rate Limit Management** - Built-in quota handling
 
+## Quick Start
+
+### 1. Install MCP Client
+
+```bash
+npm install @modelcontextprotocol/client
+```
+
+### 2. Configure MCP Client
+
+Add the following configuration to your MCP client settings:
+
+```json
+{
+  "gmail-mcp": {
+    "command": "npx",
+    "args": [
+      "mcp-remote",
+      "https://gmail-mcp-server.ishikabhoyar2005.workers.dev/sse"
+    ]
+  }
+}
+```
+
+### 3. Start Using
+
+Once configured, you can access Gmail, Google Calendar, and Google Classroom APIs through the MCP interface!
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
