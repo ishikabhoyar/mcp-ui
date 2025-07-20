@@ -22,11 +22,18 @@ export function CTASection() {
             Get started today with our easy-to-follow setup guide.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-6 h-auto text-lg">
-              Copy Configuration
+                    <div className="flex flex-wrap justify-center gap-4">
+            <Button 
+              className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-6 h-auto text-lg"
+              onClick={() => window.open('https://github.com/ishikabhoyar/gmail-mcp-server', '_blank')}
+            >
+              Get Started
             </Button>
-            <Button variant="outline" className="border-neutral-500 hover:border-violet-500 text-white px-8 py-6 h-auto text-lg">
+            <Button 
+              variant="outline" 
+              className="border-neutral-500 hover:border-violet-500 text-white px-8 py-6 h-auto text-lg"
+              onClick={() => window.open('https://github.com/ishikabhoyar/gmail-mcp-server', '_blank')}
+            >
               View on GitHub
             </Button>
           </div>

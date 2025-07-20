@@ -87,11 +87,18 @@ export function FAQSection() {
         >
           <h3 className="text-2xl font-bold text-white mb-6">Still have questions?</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button className="bg-violet-600 hover:bg-violet-700 text-white">
-              Contact Support
-            </Button>
-            <Button variant="outline" className="border-neutral-700 hover:border-violet-500 text-white">
+            <Button 
+              className="bg-violet-600 hover:bg-violet-700 text-white"
+              onClick={() => window.open('https://github.com/ishikabhoyar/gmail-mcp-server', '_blank')}
+            >
               View on GitHub
+            </Button>
+            <Button 
+              variant="outline" 
+              className="border-neutral-700 hover:border-violet-500 text-white"
+              onClick={() => window.open('https://github.com/ishikabhoyar/gmail-mcp-server/issues', '_blank')}
+            >
+              Report Issue
             </Button>
           </div>
         </motion.div>
